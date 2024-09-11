@@ -61,7 +61,7 @@ These credentials will be used by any library that requests Application Default 
 2. 本地端運行，請參考 [Setup](./rag/docs/setup.md)
 
 - 範例:
-![](./rag/demo.gif)
+![image](./rag/demo.gif)
 
 
 ### 相關參考文章
