@@ -83,6 +83,9 @@ https://github.com/Trinity-SYT-SECURITY/LLM-PYSec/assets/96654161/b4df42e0-bb4c-
 + Noflag
 + Jimmy Liao
 
+![image](https://github.com/user-attachments/assets/c85edf1c-f8d0-4bc2-8e6a-5792096217d5)
+
+
 ### 成為貢獻者?
 發送PR新增功能，我們這會進行審核!
 
