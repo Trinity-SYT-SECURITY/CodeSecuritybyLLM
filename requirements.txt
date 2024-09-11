@@ -1,0 +1,22 @@
+# cohere
+# tiktoken
+# openai
+# text_generation
+# gradio
+# PyPDF2
+# transformers
+# datasets
+# langchain
+# faiss-cpu
+# transformers[torch]
+# bitsandbytes
+# pandas
+# bs4
+# scikit-learn
+# accelerate
+# trl
+# peft
+# llama-index
+# llama-index-llms-gemini
+# llama-index-embeddings-gemini
+google-generativeai==0.6.0
