@@ -94,5 +94,9 @@ https://github.com/Trinity-SYT-SECURITY/LLM-PYSec/assets/96654161/b4df42e0-bb4c-
 + Ollama
 ...
 
+### 演講共筆
+
+https://hackmd.io/@HWDC/2024/%2FtZ-N1r47RumqlLrggI7LoA
+
 
 ## 若產生任何的費用，本單位不負責，請保管好你的魔法小卡
