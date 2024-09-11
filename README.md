@@ -2,6 +2,10 @@
 
 https://huggingface.co/datasets/CyberNative/Code_Vulnerability_Security_DPO/tree/main
 
+可以在colab中直接使用我們處理好的 csv
+
+https://huggingface.co/datasets/nomiaow/badcode/resolve/main/ALL_code.csv
+
 ### 預處理
 + 從 output.json 轉換產生 data.csv，使用者可以根據需求去選擇檔案進行訓練
 + data.csv 跟 pythondata.csv 是一樣的csv檔案
