@@ -1,0 +1,19 @@
+streamlit
+ollama
+llama-index
+llama-index-llms-ollama
+llama-index-embeddings-huggingface
+pycryptodome
+nbconvert
+pyexiftool
+llama-index-readers-web
+html2text
+streamlit-tags
+streamlit-extras
+black
+# torch!=darwin
+# colorama==win32
+torch
+colorama
+ebooklib
+llama-index-core

@@ -1,0 +1,642 @@
+2024-09-10 10:25:17,117 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 10:25:17,137 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 10:25:34,012 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 10:25:34,024 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 10:25:52,855 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:25:52,857 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:25:53,061 - ollama - INFO - Ollama LLM instance created successfully
+2024-09-10 10:25:53,062 - llama_index - INFO - Using cpu to generate embeddings
+2024-09-10 10:26:26,691 - llama_index - INFO - Embedding model created successfully
+2024-09-10 10:26:33,594 - llama_index - INFO - Loaded 24 documents from files
+2024-09-10 10:26:33,595 - llama_index - INFO - Document loading complete; removing local file(s)
+2024-09-10 10:27:51,610 - llama_index - INFO - Index created from loaded documents successfully
+2024-09-10 10:27:51,612 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:28:38,521 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:28:38,522 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:28:38,525 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:28:38,525 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:29:04,369 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:29:04,372 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:29:04,375 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:29:04,377 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:29:50,289 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:29:50,291 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:29:50,295 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:29:50,296 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:31:29,617 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:31:29,619 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:31:29,623 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:31:29,625 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:33:06,347 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:33:06,348 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:33:06,350 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:33:06,352 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:35:09,336 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:35:09,337 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:35:09,340 - ollama - INFO - Ollama LLM instance created successfully
+2024-09-10 10:35:09,341 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:35:09,342 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:35:44,359 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:35:44,362 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:35:44,365 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:35:44,365 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:37:34,486 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:37:34,489 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:37:34,493 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:37:34,494 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:38:41,337 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:38:41,339 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:38:41,344 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:38:41,345 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:39:35,010 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:39:35,012 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:39:35,017 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:39:35,017 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:39:38,305 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:39:38,305 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:39:38,306 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:39:38,307 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:39:42,410 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:39:42,411 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:39:42,413 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:39:42,414 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:40:40,562 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:40:40,564 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:40:40,565 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:41:03,812 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 10:41:03,829 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 10:41:17,112 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:41:17,612 - llama_index - INFO - Loaded 24 documents from files
+2024-09-10 10:41:17,613 - llama_index - INFO - Document loading complete; removing local file(s)
+2024-09-10 10:41:17,613 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:45:28,393 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:45:28,396 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:45:28,398 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:45:28,399 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:46:19,830 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:46:19,831 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:46:19,833 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:46:19,833 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:47:20,364 - ollama - ERROR - Ollama chat stream error: timed out
+2024-09-10 10:49:07,515 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 10:49:07,533 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 10:49:13,648 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:49:13,649 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:49:13,830 - ollama - INFO - Ollama LLM instance created successfully
+2024-09-10 10:49:13,831 - llama_index - INFO - Using cpu to generate embeddings
+2024-09-10 10:49:18,803 - llama_index - INFO - Embedding model created successfully
+2024-09-10 10:49:20,893 - llama_index - INFO - Loaded 24 documents from files
+2024-09-10 10:49:20,894 - llama_index - INFO - Document loading complete; removing local file(s)
+2024-09-10 10:50:21,547 - llama_index - INFO - Index created from loaded documents successfully
+2024-09-10 10:50:21,548 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:51:23,086 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:51:23,088 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:51:23,091 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:51:23,093 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:53:28,754 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:53:28,755 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:53:28,757 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:53:28,757 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:56:07,829 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:56:07,831 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:56:07,834 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:56:07,835 - llama_index - INFO - Query Engine created successfully
+2024-09-10 10:56:57,177 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 10:56:57,178 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 10:56:57,179 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 10:56:57,180 - llama_index - INFO - Query Engine created successfully
+2024-09-10 15:38:17,686 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 15:38:17,688 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 15:38:17,693 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 15:38:17,694 - llama_index - INFO - Query Engine created successfully
+2024-09-10 15:39:02,071 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 15:39:02,092 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 15:39:07,756 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 15:39:07,757 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 15:39:08,070 - llama_index - INFO - Loaded 24 documents from files
+2024-09-10 15:39:08,071 - llama_index - INFO - Document loading complete; removing local file(s)
+2024-09-10 15:39:08,071 - llama_index - INFO - Query Engine created successfully
+2024-09-10 15:39:12,664 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 15:39:12,666 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 15:39:12,671 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 15:39:12,671 - llama_index - INFO - Query Engine created successfully
+2024-09-10 16:22:13,743 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 16:22:13,761 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 16:22:19,645 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 16:22:19,646 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 16:22:19,768 - ollama - INFO - Ollama LLM instance created successfully
+2024-09-10 16:22:19,769 - llama_index - INFO - Using cpu to generate embeddings
+2024-09-10 16:22:25,107 - llama_index - INFO - Embedding model created successfully
+2024-09-10 16:22:26,522 - llama_index - INFO - Loaded 24 documents from files
+2024-09-10 16:22:26,523 - llama_index - INFO - Document loading complete; removing local file(s)
+2024-09-10 16:22:52,444 - llama_index - INFO - Index created from loaded documents successfully
+2024-09-10 16:22:52,445 - llama_index - INFO - Query Engine created successfully
+2024-09-10 16:23:11,092 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 16:23:11,094 - helpers - INFO - Upload 2407.05216v1.pdf saved to disk
+2024-09-10 16:23:11,097 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 16:23:11,099 - llama_index - INFO - Query Engine created successfully
+2024-09-10 20:20:21,008 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 20:20:21,027 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 20:20:38,014 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 20:20:38,021 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 20:21:07,576 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 20:21:07,585 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 20:23:29,439 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 20:23:29,447 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 20:23:41,398 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 20:23:41,407 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 20:28:53,563 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 20:28:53,574 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 20:30:06,509 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 20:30:06,519 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 20:31:18,228 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 20:31:18,244 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 20:31:22,384 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 20:31:22,390 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 20:32:07,997 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 20:32:08,006 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 20:32:34,349 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 20:32:34,355 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 20:56:02,958 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 20:56:02,983 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 20:56:08,495 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 20:56:08,496 - helpers - INFO - Upload data.pdf saved to disk
+2024-09-10 20:56:08,706 - ollama - INFO - Ollama LLM instance created successfully
+2024-09-10 20:56:08,707 - llama_index - INFO - Using cpu to generate embeddings
+2024-09-10 20:56:12,659 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 20:56:12,669 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 20:56:15,247 - llama_index - INFO - Embedding model created successfully
+2024-09-10 20:56:32,255 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 20:56:39,456 - llama_index - INFO - Loaded 421 documents from files
+2024-09-10 20:56:39,457 - llama_index - INFO - Document loading complete; removing local file(s)
+2024-09-10 21:07:30,793 - llama_index - INFO - Index created from loaded documents successfully
+2024-09-10 21:07:30,794 - llama_index - INFO - Query Engine created successfully
+2024-09-10 21:13:56,664 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 21:13:56,665 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 21:13:56,667 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 21:13:56,668 - llama_index - INFO - Query Engine created successfully
+2024-09-10 21:16:44,013 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 21:16:44,014 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 21:16:44,015 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 21:16:44,016 - llama_index - INFO - Query Engine created successfully
+2024-09-10 21:18:16,595 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 21:18:16,597 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 21:18:16,600 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 21:18:16,601 - llama_index - INFO - Query Engine created successfully
+2024-09-10 22:36:56,123 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 22:36:56,149 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 22:37:17,152 - ollama - INFO - Ollama chat client created successfully
+2024-09-10 22:37:17,233 - ollama - INFO - Ollama models loaded successfully
+2024-09-10 22:44:23,669 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 22:44:23,669 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 22:44:23,669 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 22:44:23,669 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 22:44:23,669 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 22:44:23,669 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 22:44:23,671 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 22:44:23,671 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 22:44:23,671 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 22:44:23,671 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 22:44:23,671 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 22:44:23,671 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 22:44:23,870 - ollama - INFO - Ollama LLM instance created successfully
+2024-09-10 22:44:23,870 - ollama - INFO - Ollama LLM instance created successfully
+2024-09-10 22:44:23,870 - ollama - INFO - Ollama LLM instance created successfully
+2024-09-10 22:44:23,870 - ollama - INFO - Ollama LLM instance created successfully
+2024-09-10 22:44:23,870 - ollama - INFO - Ollama LLM instance created successfully
+2024-09-10 22:44:23,870 - ollama - INFO - Ollama LLM instance created successfully
+2024-09-10 22:44:23,873 - llama_index - INFO - Using cpu to generate embeddings
+2024-09-10 22:44:23,873 - llama_index - INFO - Using cpu to generate embeddings
+2024-09-10 22:44:23,873 - llama_index - INFO - Using cpu to generate embeddings
+2024-09-10 22:44:23,873 - llama_index - INFO - Using cpu to generate embeddings
+2024-09-10 22:44:23,873 - llama_index - INFO - Using cpu to generate embeddings
+2024-09-10 22:44:23,873 - llama_index - INFO - Using cpu to generate embeddings
+2024-09-10 22:44:29,914 - llama_index - INFO - Embedding model created successfully
+2024-09-10 22:44:29,914 - llama_index - INFO - Embedding model created successfully
+2024-09-10 22:44:29,914 - llama_index - INFO - Embedding model created successfully
+2024-09-10 22:44:29,914 - llama_index - INFO - Embedding model created successfully
+2024-09-10 22:44:29,914 - llama_index - INFO - Embedding model created successfully
+2024-09-10 22:44:29,914 - llama_index - INFO - Embedding model created successfully
+2024-09-10 22:44:30,498 - llama_index - INFO - Loaded 1 documents from files
+2024-09-10 22:44:30,498 - llama_index - INFO - Loaded 1 documents from files
+2024-09-10 22:44:30,498 - llama_index - INFO - Loaded 1 documents from files
+2024-09-10 22:44:30,498 - llama_index - INFO - Loaded 1 documents from files
+2024-09-10 22:44:30,498 - llama_index - INFO - Loaded 1 documents from files
+2024-09-10 22:44:30,498 - llama_index - INFO - Loaded 1 documents from files
+2024-09-10 22:44:30,499 - llama_index - INFO - Document loading complete; removing local file(s)
+2024-09-10 22:44:30,499 - llama_index - INFO - Document loading complete; removing local file(s)
+2024-09-10 22:44:30,499 - llama_index - INFO - Document loading complete; removing local file(s)
+2024-09-10 22:44:30,499 - llama_index - INFO - Document loading complete; removing local file(s)
+2024-09-10 22:44:30,499 - llama_index - INFO - Document loading complete; removing local file(s)
+2024-09-10 22:44:30,499 - llama_index - INFO - Document loading complete; removing local file(s)
+2024-09-10 22:48:56,716 - llama_index - INFO - Index created from loaded documents successfully
+2024-09-10 22:48:56,716 - llama_index - INFO - Index created from loaded documents successfully
+2024-09-10 22:48:56,716 - llama_index - INFO - Index created from loaded documents successfully
+2024-09-10 22:48:56,716 - llama_index - INFO - Index created from loaded documents successfully
+2024-09-10 22:48:56,716 - llama_index - INFO - Index created from loaded documents successfully
+2024-09-10 22:48:56,716 - llama_index - INFO - Index created from loaded documents successfully
+2024-09-10 22:48:56,716 - llama_index - INFO - Query Engine created successfully
+2024-09-10 22:48:56,716 - llama_index - INFO - Query Engine created successfully
+2024-09-10 22:48:56,716 - llama_index - INFO - Query Engine created successfully
+2024-09-10 22:48:56,716 - llama_index - INFO - Query Engine created successfully
+2024-09-10 22:48:56,716 - llama_index - INFO - Query Engine created successfully
+2024-09-10 22:48:56,716 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:07:12,922 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:07:12,922 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:07:12,922 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:07:12,922 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:07:12,922 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:07:12,922 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:07:12,922 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:07:12,923 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:07:12,923 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:07:12,923 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:07:12,923 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:07:12,923 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:07:12,923 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:07:12,923 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:07:12,931 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:07:12,931 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:07:12,931 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:07:12,931 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:07:12,931 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:07:12,931 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:07:12,931 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:07:12,932 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:07:12,932 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:07:12,932 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:07:12,932 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:07:12,932 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:07:12,932 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:07:12,932 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:07:58,625 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:07:58,625 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:07:58,625 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:07:58,625 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:07:58,625 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:07:58,625 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:07:58,625 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:07:58,627 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:07:58,627 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:07:58,627 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:07:58,627 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:07:58,627 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:07:58,627 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:07:58,627 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:07:58,630 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:07:58,630 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:07:58,630 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:07:58,630 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:07:58,630 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:07:58,630 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:07:58,630 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:07:58,632 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:07:58,632 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:07:58,632 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:07:58,632 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:07:58,632 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:07:58,632 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:07:58,632 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:01,507 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:01,507 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:01,507 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:01,507 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:01,507 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:01,507 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:01,507 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:01,507 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:01,510 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:01,510 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:01,510 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:01,510 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:01,510 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:01,510 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:01,510 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:01,510 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:01,514 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:01,514 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:01,514 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:01,514 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:01,514 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:01,514 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:01,514 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:01,514 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:01,517 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:01,517 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:01,517 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:01,517 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:01,517 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:01,517 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:01,517 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:01,517 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:36,166 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:36,166 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:36,166 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:36,166 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:36,166 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:36,166 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:36,166 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:36,166 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:09:36,170 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:36,170 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:36,170 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:36,170 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:36,170 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:36,170 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:36,170 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:36,170 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:09:36,176 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:36,176 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:36,176 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:36,176 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:36,176 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:36,176 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:36,176 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:36,176 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:09:36,178 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:36,178 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:36,178 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:36,178 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:36,178 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:36,178 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:36,178 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:09:36,178 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:20,359 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:20,359 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:20,359 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:20,359 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:20,359 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:20,359 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:20,359 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:20,359 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:20,359 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:20,361 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:20,361 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:20,361 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:20,361 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:20,361 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:20,361 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:20,361 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:20,361 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:20,361 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:20,366 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:20,366 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:20,366 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:20,366 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:20,366 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:20,366 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:20,366 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:20,366 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:20,366 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:20,368 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:20,368 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:20,368 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:20,368 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:20,368 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:20,368 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:20,368 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:20,368 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:20,368 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:30,951 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:30,951 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:30,951 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:30,951 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:30,951 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:30,951 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:30,951 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:30,951 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:30,951 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:30,951 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:30,954 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:30,954 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:30,954 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:30,954 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:30,954 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:30,954 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:30,954 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:30,954 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:30,954 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:30,954 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:30,957 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:30,957 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:30,957 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:30,957 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:30,957 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:30,957 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:30,957 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:30,957 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:30,957 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:30,957 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:30,959 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:30,959 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:30,959 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:30,959 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:30,959 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:30,959 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:30,959 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:30,959 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:30,959 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:30,959 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:37,337 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:37,337 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:37,337 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:37,337 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:37,337 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:37,337 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:37,337 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:37,337 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:37,337 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:37,337 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:37,337 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:37,339 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:37,339 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:37,339 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:37,339 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:37,339 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:37,339 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:37,339 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:37,339 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:37,339 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:37,339 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:37,339 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:37,342 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:37,342 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:37,342 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:37,342 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:37,342 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:37,342 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:37,342 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:37,342 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:37,342 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:37,342 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:37,342 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:37,344 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:37,344 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:37,344 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:37,344 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:37,344 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:37,344 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:37,344 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:37,344 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:37,344 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:37,344 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:37,344 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:52,048 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:52,048 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:52,048 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:52,048 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:52,048 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:52,048 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:52,048 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:52,048 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:52,048 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:52,048 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:52,048 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:10:52,050 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:52,050 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:52,050 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:52,050 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:52,050 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:52,050 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:52,050 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:52,050 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:52,050 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:52,050 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:52,050 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:10:52,052 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:52,052 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:52,052 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:52,052 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:52,052 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:52,052 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:52,052 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:52,052 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:52,052 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:52,052 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:52,052 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:10:52,052 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:52,052 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:52,052 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:52,052 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:52,052 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:52,052 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:52,052 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:52,052 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:52,052 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:52,052 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:10:52,052 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:11:51,138 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:11:51,138 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:11:51,138 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:11:51,138 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:11:51,138 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:11:51,138 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:11:51,138 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:11:51,138 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:11:51,138 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:11:51,138 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:11:51,138 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:11:51,138 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-10 23:11:51,141 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:11:51,141 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:11:51,141 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:11:51,141 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:11:51,141 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:11:51,141 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:11:51,141 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:11:51,141 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:11:51,141 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:11:51,141 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:11:51,141 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:11:51,141 - helpers - INFO - Upload data.csv saved to disk
+2024-09-10 23:11:51,149 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:11:51,149 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:11:51,149 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:11:51,149 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:11:51,149 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:11:51,149 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:11:51,149 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:11:51,149 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:11:51,149 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:11:51,149 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:11:51,149 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:11:51,149 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-10 23:11:51,151 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:11:51,151 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:11:51,151 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:11:51,151 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:11:51,151 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:11:51,151 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:11:51,151 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:11:51,151 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:11:51,151 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:11:51,151 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:11:51,151 - llama_index - INFO - Query Engine created successfully
+2024-09-10 23:11:51,151 - llama_index - INFO - Query Engine created successfully
+2024-09-11 10:25:32,038 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-11 10:25:32,038 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-11 10:25:32,038 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-11 10:25:32,038 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-11 10:25:32,038 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-11 10:25:32,038 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-11 10:25:32,038 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-11 10:25:32,038 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-11 10:25:32,038 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-11 10:25:32,038 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-11 10:25:32,038 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-11 10:25:32,038 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-11 10:25:32,043 - helpers - INFO - Upload data.csv saved to disk
+2024-09-11 10:25:32,043 - helpers - INFO - Upload data.csv saved to disk
+2024-09-11 10:25:32,043 - helpers - INFO - Upload data.csv saved to disk
+2024-09-11 10:25:32,043 - helpers - INFO - Upload data.csv saved to disk
+2024-09-11 10:25:32,043 - helpers - INFO - Upload data.csv saved to disk
+2024-09-11 10:25:32,043 - helpers - INFO - Upload data.csv saved to disk
+2024-09-11 10:25:32,043 - helpers - INFO - Upload data.csv saved to disk
+2024-09-11 10:25:32,043 - helpers - INFO - Upload data.csv saved to disk
+2024-09-11 10:25:32,043 - helpers - INFO - Upload data.csv saved to disk
+2024-09-11 10:25:32,043 - helpers - INFO - Upload data.csv saved to disk
+2024-09-11 10:25:32,043 - helpers - INFO - Upload data.csv saved to disk
+2024-09-11 10:25:32,043 - helpers - INFO - Upload data.csv saved to disk
+2024-09-11 10:25:32,048 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-11 10:25:32,048 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-11 10:25:32,048 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-11 10:25:32,048 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-11 10:25:32,048 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-11 10:25:32,048 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-11 10:25:32,048 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-11 10:25:32,048 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-11 10:25:32,048 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-11 10:25:32,048 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-11 10:25:32,048 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-11 10:25:32,048 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-11 10:25:32,051 - llama_index - INFO - Query Engine created successfully
+2024-09-11 10:25:32,051 - llama_index - INFO - Query Engine created successfully
+2024-09-11 10:25:32,051 - llama_index - INFO - Query Engine created successfully
+2024-09-11 10:25:32,051 - llama_index - INFO - Query Engine created successfully
+2024-09-11 10:25:32,051 - llama_index - INFO - Query Engine created successfully
+2024-09-11 10:25:32,051 - llama_index - INFO - Query Engine created successfully
+2024-09-11 10:25:32,051 - llama_index - INFO - Query Engine created successfully
+2024-09-11 10:25:32,051 - llama_index - INFO - Query Engine created successfully
+2024-09-11 10:25:32,051 - llama_index - INFO - Query Engine created successfully
+2024-09-11 10:25:32,051 - llama_index - INFO - Query Engine created successfully
+2024-09-11 10:25:32,051 - llama_index - INFO - Query Engine created successfully
+2024-09-11 10:25:32,051 - llama_index - INFO - Query Engine created successfully
+2024-09-11 12:28:39,623 - ollama - INFO - Ollama chat client created successfully
+2024-09-11 12:28:39,643 - ollama - INFO - Ollama models loaded successfully
+2024-09-11 12:28:46,020 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-11 12:28:46,021 - helpers - INFO - Upload data.csv saved to disk
+2024-09-11 12:28:46,206 - ollama - INFO - Ollama LLM instance created successfully
+2024-09-11 12:28:46,207 - llama_index - INFO - Using cpu to generate embeddings
+2024-09-11 12:28:52,565 - llama_index - INFO - Embedding model created successfully
+2024-09-11 12:28:53,009 - llama_index - INFO - Loaded 1 documents from files
+2024-09-11 12:28:53,010 - llama_index - INFO - Document loading complete; removing local file(s)
+2024-09-11 12:32:59,045 - llama_index - INFO - Index created from loaded documents successfully
+2024-09-11 12:32:59,046 - llama_index - INFO - Query Engine created successfully
+2024-09-11 13:08:59,603 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-11 13:08:59,604 - helpers - INFO - Upload data.csv saved to disk
+2024-09-11 13:08:59,607 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-11 13:08:59,608 - llama_index - INFO - Query Engine created successfully
+2024-09-11 13:53:28,335 - helpers - INFO - Directory /Users/jimmy.liao/workspace/jimmyliao/lab/local-rag/data did not exist so creating it
+2024-09-11 13:53:28,336 - helpers - INFO - Upload data.csv saved to disk
+2024-09-11 13:53:28,337 - rag_pipeline - INFO - Documents are already available; skipping document loading
+2024-09-11 13:53:28,338 - llama_index - INFO - Query Engine created successfully

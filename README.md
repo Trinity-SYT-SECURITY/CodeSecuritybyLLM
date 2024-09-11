@@ -55,6 +55,15 @@ These credentials will be used by any library that requests Application Default 
 + requirements.txt 內是需要下載的套件，實際可能需要更多或更少安裝內容
 + un_sec_code 的資料夾下包含了一些範例的不正確程式碼寫法，可以在執行 elev.py 時進行測試
 
+
+### 使用 RAG 應用程式檢測程式碼
+1. 請參考 rag 資料夾以及 [README.md](./rag/README.md)
+2. 本地端運行，請參考 [Setup](./rag/docs/setup.md)
+
+- 範例:
+![](./rag/demo.gif)
+
+
 ### 相關參考文章
 + https://ai.google.dev/gemini-api/docs/model-tuning/python
 + https://www.kaggle.com/code/bhavikjikadara/gemini-api-with-python
@@ -72,7 +81,7 @@ https://github.com/Trinity-SYT-SECURITY/LLM-PYSec/assets/96654161/b4df42e0-bb4c-
 
 ### 開發人員
 + Noflag
-+ jimmy Liao
++ Jimmy Liao
 
 ### 成為貢獻者?
 發送PR新增功能，我們這會進行審核!

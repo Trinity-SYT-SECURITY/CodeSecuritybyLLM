@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+ollama = "*"
+llama-index = "*"
+llama-index-llms-ollama = "*"
+llama-index-embeddings-huggingface = "*"
+pycryptodome = "*"
+nbconvert = "*"
+pyexiftool = "*"
+llama-index-readers-web = "*"
+html2text = "*"
+streamlit-tags = "*"
+streamlit-extras = "*"
+black = "*"
+torch = { version = "*", sys_platform = "!= 'darwin'" }
+colorama = { version = "*", sys_platform = "== 'win32'" }
+ebooklib = "*"
+llama-index-core = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
