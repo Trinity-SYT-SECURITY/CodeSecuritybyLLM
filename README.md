@@ -29,7 +29,8 @@ After you get the client_secret.json file from OAuth, please go to google cloud 
 
 + `gcloud auth application-default login --client-id-file client_secret.json --scopes=https://www.googleapis.com/auth/cloud-platform --scopes=https://www.googleapis.com/auth/generative-language.tuning`
 
-![image](https://github.com/Trinity-SYT-SECURITY/LLM-PYSec/assets/96654161/49f95989-fb74-4a2c-aa9d-cee619506a06)
+![image](https://github.com/user-attachments/assets/b7af2675-c49d-471a-88de-51649437c28e)
+
 
 ```bash
 Credentials saved to file: [/<YOUR_HOME_DIR>/.config/gcloud/application_default_credentials.json]
