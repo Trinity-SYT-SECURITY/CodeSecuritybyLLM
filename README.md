@@ -1,3 +1,8 @@
+
+## Project structure 
+
+![image](https://github.com/user-attachments/assets/4faf920e-cf15-413b-b7b8-a8708921b05f)
+
 The location of the original dataset needs to be preprocessed, otherwise training cannot be performed.
 
 https://huggingface.co/datasets/CyberNative/Code_Vulnerability_Security_DPO/tree/main
