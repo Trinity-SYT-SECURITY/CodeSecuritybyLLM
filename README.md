@@ -14,20 +14,19 @@ https://huggingface.co/datasets/nomiaow/badcode/resolve/main/ALL_code.csv
 
 ### 註冊 google cloud (不用錢，但請遵照以下方法，不要綁卡!!!)
 
-![gcloud](https://github.com/user-attachments/assets/9b79fc04-0c99-465f-b921-c3dc78ad286a)
+![image](https://github.com/user-attachments/assets/0bd67832-0ba6-4fa1-8ab5-a603b92e212d)
 
 
 訓練該程式前需要先註冊好 google cloud 並將 OAuth 相關設定搞定，超過請求數有可能你需要刷卡，詳情請參考這篇文章
 + 先到google cloud啟用API -> Generative Language API
 
-![image](https://github.com/user-attachments/assets/e0745c09-eb8f-423d-a2ce-a7d00c9629cc)
+![image](https://github.com/user-attachments/assets/18be6fa6-ddd4-483e-b64e-c9e1c6401f19)
+
 
 + [透過 OAuth 進行驗證的快速入門導覽課程](https://ai.google.dev/gemini-api/docs/oauth)
 
 當你從 OAuth 拿到 client_secret.json 的檔案後，請到 google cloud cli 去下這下面指令，不要忘記 client_secret.json 的位置要在下指令的目錄中，並確認你的 cloud 有允許的測試人員名單，在該指令下後會需要登入到該測試人員的帳號
 + `gcloud auth application-default login --client-id-file client_secret.json --scopes=https://www.googleapis.com/auth/cloud-platform --scopes=https://www.googleapis.com/auth/generative-language.tuning`
-
-![image](https://github.com/Trinity-SYT-SECURITY/LLM-PYSec/assets/96654161/24d3be84-dc33-43fd-a7e2-c9f5839d6432)
 
 ![image](https://github.com/Trinity-SYT-SECURITY/LLM-PYSec/assets/96654161/49f95989-fb74-4a2c-aa9d-cee619506a06)
 
@@ -49,9 +48,10 @@ These credentials will be used by any library that requests Application Default 
 
 運行結果如圖
 
-![image](https://github.com/Trinity-SYT-SECURITY/LLM-PYSec/assets/96654161/070358ea-910c-4023-b971-94d0146b212a)
+![image](https://github.com/user-attachments/assets/7af23a6e-a51d-4080-b078-61a71d97a793)
 
-![image](https://github.com/Trinity-SYT-SECURITY/LLM-PYSec/assets/96654161/bb430650-dc3c-45da-a496-dae9e4845fa3)
+![image](https://github.com/user-attachments/assets/152585e1-b48c-4014-a38d-fcd31a51c86a)
+
 
 + data.csv 只包含 python 的資料集
 + 若想訓練多個不當程式寫法，該資料集放在 ALLcodedet 資料夾下
