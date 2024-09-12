@@ -1,31 +1,32 @@
-原數據集位置，需經預處理，不然無法進行訓練
+The location of the original dataset needs to be preprocessed, otherwise training cannot be performed.
 
 https://huggingface.co/datasets/CyberNative/Code_Vulnerability_Security_DPO/tree/main
 
-可以在colab中直接使用我們處理好的 csv
+You can use our processed csv directly in colab
 
 https://huggingface.co/datasets/nomiaow/badcode/resolve/main/ALL_code.csv
 
-### 預處理
-+ 從 output.json 轉換產生 data.csv，使用者可以根據需求去選擇檔案進行訓練
-+ data.csv 跟 pythondata.csv 是一樣的csv檔案
-+ output.json 只包含 python 的數據
-+ ALLcodedet 資料夾下包含了所有用來進行資料預處理的程式碼
+### Preprocessing
++ Convert output.json to generate data.csv. Users can select files for training according to their needs.
++ data.csv is the same csv file as pythondata.csv
++ output.json only contains python data
++ The ALLcodedet folder contains all the code used for data preprocessing
 
-### 註冊 google cloud (不用錢，但請遵照以下方法，不要綁卡!!!)
+### Register google cloud (no money required, but please follow the steps below and don’t bind your card!!!)
 
 ![image](https://github.com/user-attachments/assets/0bd67832-0ba6-4fa1-8ab5-a603b92e212d)
 
 
-訓練該程式前需要先註冊好 google cloud 並將 OAuth 相關設定搞定，超過請求數有可能你需要刷卡，詳情請參考這篇文章
-+ 先到google cloud啟用API -> Generative Language API
+Before training the program, you need to register with Google Cloud and complete the OAuth related settings. If the number of requests exceeds the number, you may need to swipe your card. Please refer to this article for details.
++ First go to google cloud to enable API -> Generative Language API
 
 ![image](https://github.com/user-attachments/assets/18be6fa6-ddd4-483e-b64e-c9e1c6401f19)
 
 
-+ [透過 OAuth 進行驗證的快速入門導覽課程](https://ai.google.dev/gemini-api/docs/oauth)
++ [Quick Start Guide to Authentication with OAuth](https://ai.google.dev/gemini-api/docs/oauth)
 
-當你從 OAuth 拿到 client_secret.json 的檔案後，請到 google cloud cli 去下這下面指令，不要忘記 client_secret.json 的位置要在下指令的目錄中，並確認你的 cloud 有允許的測試人員名單，在該指令下後會需要登入到該測試人員的帳號
+After you get the client_secret.json file from OAuth, please go to google cloud cli and execute the following command. Don’t forget that the location of client_secret.json must be in the directory where you downloaded the command, and confirm that your cloud has a list of allowed testers. After following this command, you will need to log in to the tester's account.
+
 + `gcloud auth application-default login --client-id-file client_secret.json --scopes=https://www.googleapis.com/auth/cloud-platform --scopes=https://www.googleapis.com/auth/generative-language.tuning`
 
 ![image](https://github.com/Trinity-SYT-SECURITY/LLM-PYSec/assets/96654161/49f95989-fb74-4a2c-aa9d-cee619506a06)
@@ -35,86 +36,78 @@ Credentials saved to file: [/<YOUR_HOME_DIR>/.config/gcloud/application_default_
 
 These credentials will be used by any library that requests Application Default Credentials (ADC).
 ```
-+ 有產生 application_default_credentials.json 才能正常運行程式碼
++ Application_default_credentials.json must be generated to run the code normally
 
-### 訓練
+### train
 
-記得運行該指令
+Remember to run this command
 + pip install google-generativeai
 
-主要訓練程式為 finetunellm.py，訓練時請確保你在OAuth中有取得 client_secret.json，並將我們的 data.csv 資料集匯入，請確認都在同個目錄底下 
+The main training program is finetunellm.py. During training, please make sure you obtain client_secret.json in OAuth and import our data.csv data set. Please make sure they are all in the same directory.
 
-+ 訓練後運行 elev.py 的程式去將你想要檢測的程式碼輸入進去，記住! 如果只使用 data.csv，那麼 finetunellm.py 這程式僅訓練 python 不當寫法! 所以請只輸入 xxx.py (根據訓練程式去輸入要檢測的程式碼檔案名稱)
++ After training, run the elev.py program to enter the code you want to detect. Remember! If you only use data.csv, then finetunellm.py is a program that only trains python and is not written properly! So please only enter xxx.py (Enter the name of the code file to be tested according to the training program)
 
-運行結果如圖
+The running result is as shown in the figure
 
 ![image](https://github.com/user-attachments/assets/7af23a6e-a51d-4080-b078-61a71d97a793)
 
 ![image](https://github.com/user-attachments/assets/152585e1-b48c-4014-a38d-fcd31a51c86a)
 
 
-+ data.csv 只包含 python 的資料集
-+ 若想訓練多個不當程式寫法，該資料集放在 ALLcodedet 資料夾下
-+ install_mode 檔案在每次訓練後會產出
-+ requirements.txt 內是需要下載的套件，實際可能需要更多或更少安裝內容
-+ un_sec_code 的資料夾下包含了一些範例的不正確程式碼寫法，可以在執行 elev.py 時進行測試
++ data.csv only contains python data sets
++ If you want to train multiple improper programming methods, the data set is placed in the ALLcodedet folder
++ install_mode file will be generated after each training
++ Requirements.txt contains the packages that need to be downloaded. In fact, more or less installation content may be required.
++ The un_sec_code folder contains some examples of incorrect code writing, which can be tested when executing elev.py
 
 
-### 使用 RAG 應用程式檢測程式碼
-1. 請參考 rag 資料夾以及 [README.md](./rag/README.md)
-2. 本地端運行，請參考 [Setup](./rag/docs/setup.md)
+### Use the RAG application to instrument your code
+1. Please refer to the rag folder and [README.md](./rag/README.md)
+2. To run locally, please refer to [Setup](./rag/docs/setup.md)
 
-- 範例:
+- Example:
 
 https://github.com/user-attachments/assets/02f93c97-469d-4609-8d2e-efe5cfd07655
 
 
 
-### 相關參考文章
+### Related reference articles
 + https://ai.google.dev/gemini-api/docs/model-tuning/python
 + https://www.kaggle.com/code/bhavikjikadara/gemini-api-with-python
-
-### 不用訓練
-如果不想訓練，可以到 google gemini 去取得開發人員 API，在每分鐘請求不超過官方限制的情況下是免費的
++ 
+### No training required
+If you don’t want to train, you can go to google gemini to get the developer API, which is free as long as the requests per minute do not exceed the official limit.
 + [GeminiAPI](https://ai.google.dev/gemini-api?gad_source=1&gclid=Cj0KCQjwsPCyBhD4ARIsAPaaRf0hB9zSvwr530f4nt47I5Vr8wfllZyFwQIqlppBKxtoMRwB7iY9lEgaAoo0EALw_wcB&hl=zh-tw)
 + [Get Gemini API Key](https://aistudio.google.com/app/apikey)
+  
+After getting the API, use notraintogemini.py directly.
 
-取得到 API 後直接使用 notraintogemini.py
-
-運行結果如下
-
-
+The running results are as follows
 
 https://github.com/user-attachments/assets/323782f8-d4a0-449c-827e-08069f8a7ec6
 
-
-
 https://github.com/user-attachments/assets/768c471b-1ac0-4ab1-8c20-dc6281d8a2bd
 
-
-
-
-### 開發人員
+### Developer
 + Noflag
 + Jimmy Liao
 
 ![image](https://github.com/user-attachments/assets/c85edf1c-f8d0-4bc2-8e6a-5792096217d5)
 
-
-### 成為貢獻者?
-發送PR新增功能，我們這會進行審核!
+### Become a contributor?
+Send a PR to add new features and we will review it!
 
 ### Future Work
-+ 檢測結果
-  + 網頁顯示
-  + PDF 報告
-+ RAG
++ test results
+ + web display
+ + PDF report
++RAG
 + Ollama
 ...
 
-### 演講共筆
+### Shared speech
 
 https://hackmd.io/@HWDC/2024/%2FtZ-N1r47RumqlLrggI7LoA
 
 
-## 若產生任何的費用，本單位不負責，請保管好你的魔法小卡
+## This unit is not responsible for any expenses incurred. Please keep your magic card safe.
