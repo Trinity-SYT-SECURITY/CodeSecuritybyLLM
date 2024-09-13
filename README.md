@@ -59,6 +59,8 @@ The running result is as shown in the figure
 
 ![image](https://github.com/user-attachments/assets/152585e1-b48c-4014-a38d-fcd31a51c86a)
 
+https://github.com/user-attachments/assets/323782f8-d4a0-449c-827e-08069f8a7ec6
+
 
 + data.csv only contains python data sets
 + If you want to train multiple improper programming methods, the data set is placed in the ALLcodedet folder
@@ -90,7 +92,6 @@ After getting the API, use notraintogemini.py directly.
 
 The running results are as follows
 
-https://github.com/user-attachments/assets/323782f8-d4a0-449c-827e-08069f8a7ec6
 
 https://github.com/user-attachments/assets/768c471b-1ac0-4ab1-8c20-dc6281d8a2bd
 
